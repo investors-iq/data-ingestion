@@ -1,0 +1,4 @@
+source .venv/bin/activate
+
+python3 ingest_sheet.py --file ../Stocks.xlsx --tab Sheet1 --header-row 2 --from-row 6 --to-row 105 \
+        --db-url "$DATABASE_URL" --commit --skip-invalid

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*.xlsx
+*.xlsm
+*.csv
+*.tsv
+cleaned-transactions.*
